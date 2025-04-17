@@ -7,8 +7,9 @@ scikit-learn
 tensorflow
 PyPDF2
 torch
-transformers
-accelerate # Recommended for transformers
-sentence-transformers
-faiss-cpu # Or faiss-gpu
+transformers==4.38.2 # Example pinned version
+accelerate
+sentence-transformers # Or pin this too if needed, e.g., ==2.7.0
+faiss-cpu
 langchain
+codecarbon # If needed
