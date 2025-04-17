@@ -6,3 +6,14 @@ seaborn
 scikit-learn
 tensorflow
 PyPDF2
+plotly
+tensorflow  # Or torch depending on NN implementation preference
+torch
+langchain
+langchain-community
+langchain-huggingface # Or langchain_community if using older versions for specific components
+faiss-cpu # Or faiss-gpu if you have CUDA setup
+pypdf
+sentence-transformers
+python-dotenv
+transformers # Often needed as a dependency for langchain integrations
